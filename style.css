@@ -4,7 +4,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-header, header .mid, header .end{
+header, header .mid{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -16,35 +16,140 @@ header, header .mid, header .end{
 header{
     width: 100%;
     height: 80px;
-    background-color: rgb(5, 56, 100);
+    background-color: #1E2530;
     gap: 10%;
 }
-header a{
+header button, button{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    opacity: 50%;
+    border-radius: 20px;
+}
+header .logo{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    color: rgb(200, 200, 200);
+}
+header a, header .mid{
     font-size: 13px;
     color: rgb(200, 200, 200);
     text-decoration: none;
 }
-header .end{
-    width: 20%;
-}
-nav::checkmark{
-    background-color: white;
-}
 section{
-    gap: 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("media_to_upload1656063024.jpeg");
     align-items: center;
+    justify-content: center;
+    background-color: #00000068;
+    background-blend-mode: overlay;
+    margin-bottom: 20px;
+    box-shadow: 0 20px #00B4BC;
+}
+section .in{
+    color: rgb(200, 200, 200);
+    width: 400px;
+    text-align: center;
+}
+section .button{
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+section1{
+    margin: 0 20px;
+    width: 100%;
+    height: auto;
     display: flex;
 }
-section .p{
+section1 .inside{
+    width: 50%;
+    margin: 40px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section1 p, span, section2 p{
+    text-indent: 30px;
+    font-size: 12px;
+    margin: 10px 0;
+}
+section1 .about{
+    display: flex;
+}
+section1 .inner{
+    margin: 10px 10px;
+}
+section1 .about span, section2 span{
+    color: #00B4BC;
+}
+.members{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    gap: 30px;
+}
+.members .block{
+    width: 200px;
+    height: 150px;
+    margin: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #3D4450;
+    border-radius: 20px;
+}
+section2, section2 .inner{
+    width: auto;
+    height: auto;
+    color: white;
+}
+section2 .inner-in{
+    padding: 20px 0;
+    padding-left: 100px;
     width: 40%;
-    padding: 50px;
-    font-style: italic;
-    text-indent: 50px;
 }
-section h1{
-    text-indent: 0;
+section2{
+    background-color: #1e2530e4;
+    display: flex;
 }
-.news{
+section2 span{
+    font-size: 10px;
+}
+section2 .block{
+    width: 400px;
+    height: 250px;
+    margin: 30px 0;
+    margin-right: 80px;
+    background-color: #1E2530;
+    border-radius: 20px;
+    font-size: 12px;
+    color: rgb(200, 200, 200);
+}
+section2 button{
+    margin: 10px 0;
+    margin-left: 50px;
+    background-color: #1AB5C1;
+}
+section2 .in{
+    line-height: 0.5rem;
+    margin: 20px 10px;
+    font-size: 10px;
+}
+section2 ul{
+    margin-left: 20px;
+    line-height: 2rem;
+}
+section2 #p{
+    text-indent: 0%;
+}
+.news, .news-header{
     background-color: black;
     width: 100%;
     height: 150px;
@@ -53,6 +158,13 @@ section h1{
     justify-content: center;
     color: white;
     gap: 5%;
+}
+.news-header{
+    justify-content: start;
+    padding: 10px 35px;
+    padding-left: 100px;
+    width: auto;
+    height: auto;
 }
 .news .in-news{
     width: 25%;
