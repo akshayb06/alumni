@@ -214,3 +214,54 @@ button:hover{
 button:active{
     transform: scale(0.92);
 }
+.contact{
+    width: 87.5%;
+    height: 250px;
+    background-color: rgba(30, 37, 48, 0.894);
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .details{
+    width: 50%;
+}
+.contact .details h4{
+    margin-top: 15px;
+}
+.contact .block{
+    width: 30%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(30, 37, 48, 0.894);
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+.contact .block input, .contact textarea{
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.contact button{
+    margin-bottom: 10px;
+    width: 80%;
+    background-color: #00B4BC;
+}
+footer .block{
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1AB5C1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+footer h2{
+    margin: 20px;
+}
+footer{
+    background-color: #3D4450;
+}
